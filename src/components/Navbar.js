@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
- const Navbar = () => (
+const Navbar = () => (
   <nav className="navbar">
     <div className="navbar-brand">
       <h1>It's make sense</h1>

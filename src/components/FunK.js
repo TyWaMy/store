@@ -2,7 +2,7 @@ import React from "react";
 import { notebookList } from "../notebookList";
 import Item from "../item";
 
- const Funk=()=> {
+const Funk = () => {
   return (
     <div className="Coll">
       {notebookList.map((e) => {
@@ -10,6 +10,6 @@ import Item from "../item";
       })}
     </div>
   );
-}
+};
 
 export default Funk;
