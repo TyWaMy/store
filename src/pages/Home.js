@@ -1,7 +1,7 @@
 import React from "react";
 import { Funk } from "../components/FunK";
 
-export const Home = () => {
+const Home = () => {
   return (
     <div className="notebook">
       <h1>Home</h1>
@@ -11,3 +11,5 @@ export const Home = () => {
     </div>
   );
 };
+
+export default Home;

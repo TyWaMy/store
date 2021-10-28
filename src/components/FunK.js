@@ -2,7 +2,7 @@ import React from "react";
 import { notebookList } from "../notebookList";
 import Item from "../item";
 
-export function Funk() {
+ const Funk=()=> {
   return (
     <div className="Coll">
       {notebookList.map((e) => {
@@ -11,3 +11,5 @@ export function Funk() {
     </div>
   );
 }
+
+export default Funk;
