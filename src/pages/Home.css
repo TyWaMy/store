@@ -1,6 +1,4 @@
-
-
-.noteBookSoll{
-    display: flex;
-   flex-wrap: wrap;
+.noteBookSoll {
+  display: flex;
+  flex-wrap: wrap;
 }

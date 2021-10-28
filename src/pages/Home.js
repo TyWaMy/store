@@ -1,15 +1,13 @@
 import React from "react";
-import { Coll } from "../components/FunK";
+import { Funk } from "../components/FunK";
 
- export const Home = ()=>{
-   return (
-       <div className='noteBook'>
-         <h1>Home</h1>
-         <div className='noteBookSoll'>
-            <Coll/>
-         </div>
-       </div>
-    
-   );
-}
-
+export const Home = () => {
+  return (
+    <div className="notebook">
+      <h1>Home</h1>
+      <div className="content">
+        <Funk />
+      </div>
+    </div>
+  );
+};
