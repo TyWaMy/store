@@ -1,16 +1,18 @@
-import React,{Fragment} from "react";
-import { NavLink } from "react-router-dom"; 
+import React from "react";
+import { NavLink } from "react-router-dom";
 
-export const Navbar = () => (
+const Navbar = () => (
   <nav className="navbar">
-    <div className="navbar-brand"><h1>It's make sense</h1></div>
+    <div className="navbar-brand">
+      <h1>It's make sense</h1>
+    </div>
     <ul className="navbar-nav">
       <li>
         <NavLink className="nav-link" to="/" exact>
           Главная
         </NavLink>
-        </li>
-        <li>
+      </li>
+      <li>
         <NavLink className="nav-link" to="/PageNotebook">
           Notebook
         </NavLink>
@@ -18,3 +20,5 @@ export const Navbar = () => (
     </ul>
   </nav>
 );
+
+export default Navbar;

@@ -1,32 +1,28 @@
 body {
-   background-color:wheat;
+  background-color: wheat;
 }
-.App{
-   display: flex;
-   flex-wrap: wrap;
-   
-}
-
-.wrapper{
-   border: 1px black solid;
-   width: 200px;
-   height: 300px;
-   padding: 50px;
-   
-   
-}
-.image_main{
-   width: 100%;
-   
+.App {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.old_price{
-   margin-left: 70px;
-   text-decoration: line-through;
+.wrapper {
+  border: 1px black solid;
+  width: 200px;
+  height: 300px;
+  padding: 50px;
+}
+.image_main {
+  width: 100%;
+}
+
+.old_price {
+  margin-left: 70px;
+  text-decoration: line-through;
 }
 .price {
-   margin-left: 70px;
+  margin-left: 70px;
 }
-.title{
-   text-align: center;
+.title {
+  text-align: center;
 }

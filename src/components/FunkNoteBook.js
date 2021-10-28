@@ -1,9 +1,8 @@
 import React from "react";
-import {notebookList} from "../notebookList"
+import { notebookList } from "../notebookList";
 import PageNotebook from "../pages/PageNotebook";
 
-
-const FunkNoteBook=()=>{
+const FunkNoteBook = () => {
   return (
     <div className="NoteBook">
       {notebookList.map((e) => {
@@ -19,6 +18,6 @@ const FunkNoteBook=()=>{
       })}
     </div>
   );
-}
+};
 
 export default FunkNoteBook;
