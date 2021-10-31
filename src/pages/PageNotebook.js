@@ -1,13 +1,22 @@
 import React from "react";
+import { useParams } from "react-router-dom";
+import { notebookList } from "../notebookList";
+import s from "./PageNotebook.module.css";
 
 const PageNotebook = (props) => {
+  const { id } = useParams();
+
+
+  const notebook = notebookList.find((e) => e.id == id);
+  
+  
   return (
-    <div className="Sel">
-      <img className="image_main"></img>
-      <div className="title"></div>
-      <div className="old_price"></div>
-      <div className="price"></div>
-      <div className="docket"></div>
+    <div className={s.Sel}>
+      <img className={s.image_main} src={notebook.image_main}></img>
+      <div className={s.title}>{notebook.title}</div>
+      <div className={s.old_price}>{notebook.old_price}</div>
+      <div className={s.price}>{notebook.price}</div>
+      <div className={s.docket}>{notebook.docket}</div>
     </div>
   );
 };

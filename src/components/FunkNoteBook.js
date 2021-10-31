@@ -5,14 +5,14 @@ import PageNotebook from "../pages/PageNotebook";
 const FunkNoteBook = () => {
   return (
     <div className="NoteBook">
-      {notebookList.map((e) => {
+      {notebookList.map((ce) => {
         return (
           <PageNotebook
-            image_main={e.image_main}
-            title={e.title}
-            old_price={e.old_price}
-            price={e.price}
-            docket={e.docket}
+            image_main={ce.image_main}
+            title={ce.title}
+            old_price={ce.old_price}
+            price={ce.price}
+            docket={ce.docket}
           />
         );
       })}

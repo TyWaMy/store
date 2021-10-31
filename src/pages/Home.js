@@ -1,5 +1,5 @@
 import React from "react";
-import { Funk } from "../components/FunK";
+import Funk from "../components/FunK";
 
 const Home = () => {
   return (

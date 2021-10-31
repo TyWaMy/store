@@ -1,0 +1,15 @@
+.image_main {
+  margin-left: 600px;
+}
+
+.title {
+  text-align: center;
+}
+
+.old_price {
+  text-align: center;
+  text-decoration: line-through;
+}
+.price {
+  text-align: center;
+}
