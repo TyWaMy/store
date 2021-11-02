@@ -1,11 +1,12 @@
 import React from "react";
-import { Funk } from "../components/FunK";
+import Funk from "../components/FunK";
+import s from "./Home.module.css";
 
 const Home = () => {
   return (
-    <div className="notebook">
+    <div className={s.notebook}>
       <h1>Home</h1>
-      <div className="content">
+      <div className={s.content}>
         <Funk />
       </div>
     </div>
