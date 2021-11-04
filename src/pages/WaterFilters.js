@@ -1,12 +1,13 @@
 import React from "react";
 import { filters } from "../Massive/waterFilters";
-import ItemWaterFiltres from "../components/ItemList/iItemWaterFilters"
+
+import Item from "../components/ItemList/Item";
 
 const WaterFilters = () => {
   return (
     <div className="waterFilters">
       {filters.map((e) => {
-        return <ItemWaterFiltres {...e} />;
+        return <Item {...e} name={"waterFilter"} />;
       })}
     </div>
   );

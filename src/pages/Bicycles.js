@@ -1,12 +1,12 @@
 import React from "react";
 import { bicycles } from "../Massive/bicycles";
-import ItemBicycle from "../components/ItemList/ItemBicycle";
+import Item from "../components/ItemList/Item";
 
 const Bicycles=()=>{
    return (
      <div className="bicycleList">
        {bicycles.map((e) => {
-         return <ItemBicycle {...e} />;
+         return <Item {...e} name={"bicycle"} />;
        })}
      </div>
    );
