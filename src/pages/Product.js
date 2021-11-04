@@ -2,7 +2,6 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { notebookList } from "../Massive/notebookList";
 import { refrigerators } from "../Massive/refrigerators";
-import s from "./PageNotebook.module.css";
 import { useLocation } from "react-router-dom";
 import { filters } from "../Massive/waterFilters";
 import { bicycles } from  "../Massive/bicycles"
@@ -16,6 +15,8 @@ const products = {
   camera: cameras,
 };
 
+const s = {};
+
 const Product = () => {
   const { id } = useParams();
   const location = useLocation();
@@ -23,7 +24,7 @@ const Product = () => {
   const pathname = location.pathname.split("/")[1];
 
   const product = products[pathname].find((e) => e.id == id);
-
+console.log(pathname);
   return (
     <div className={s.Sel}>
       <img className={s.image_main} src={product.image_main}></img>
