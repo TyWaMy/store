@@ -5,8 +5,8 @@ const ItemCamera = (props) => {
   const onClick = () => {};
 
   return (
-    <Link to={`/Camera/${props.id}`}>
-      <div className="wrapper_camera" onClick={onClick}>
+    <Link to={`/camera/${props.id}`}>
+      <div className="wrapper" onClick={onClick}>
         <img className="image_main" src={props.image_main}></img>
         <div className="title">{props.title}</div>
         <div className="old_price">{props.old_price}</div>
