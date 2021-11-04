@@ -22,7 +22,7 @@ function App() {
             <Route path="/Cameras" component={Cameras} />
             <Route path="/Refrigerators" component={Refrigerators} />
             <Route path="/WaterFilters" component={WaterFilters} />
-            {/*  */}
+
             <Route path="/camera/:id" component={Product} />
             <Route path="/refrigerator/:id" component={Product} />
             <Route path="/notebook/:id" component={Product} />

@@ -1,12 +1,12 @@
 import React from "react";
 import { cameras } from "../Massive/cameras";
-import ItemCamera from "../components/ItemList/ItemCamera";
+import Item from "../components/ItemList/Item";
 
 const Cameras = () => {
   return (
     <div className="bicycleList">
       {cameras.map((e) => {
-        return <ItemCamera {...e} />;
+        return <Item {...e} name={"camera"}/>;
       })}
     </div>
   );
