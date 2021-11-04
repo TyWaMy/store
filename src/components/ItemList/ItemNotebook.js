@@ -7,7 +7,7 @@ const Item = (props) => {
   };
 
   return (
-    <Link to={`/Notebook/${props.id}`}>
+    <Link to={`/notebook/${props.id}`}>
       <div className="wrapper" onClick={onClick}>
         <img className="image_main" src={props.image_main}></img>
         <div className="title">{props.title}</div>

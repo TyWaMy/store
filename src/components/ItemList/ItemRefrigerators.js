@@ -5,8 +5,8 @@ const ItemRefrigerators = (props) => {
   const onClick = () => {};
 
   return (
-    <Link to={`/Refrigerator/${props.id}`}>
-      <div className="wrapper_refrigerators" onClick={onClick}>
+    <Link to={`/refrigerator/${props.id}`}>
+      <div className="wrapper" onClick={onClick}>
         <img className="image_main" src={props.image_main}></img>
         <div className="title">{props.title}</div>
         <div className="old_price">{props.old_price}</div>
