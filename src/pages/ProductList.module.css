@@ -1,16 +1,10 @@
-.notebook_list {
+.list {
   display: flex;
   flex-wrap: wrap;
   margin: 5px;
   justify-content: center;
 }
-.wrapper {
-  border: 1px black solid;
-  width: 200px;
-  height: 300px;
-  padding: 50px;
-  margin: 5px;
-}
+
 .image_main {
   width: 100%;
 }
