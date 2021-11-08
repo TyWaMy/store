@@ -4,8 +4,11 @@ import { notebookList } from "../Massive/notebookList";
 import { refrigerators } from "../Massive/refrigerators";
 import { useLocation } from "react-router-dom";
 import { filters } from "../Massive/waterFilters";
-import { bicycles } from  "../Massive/bicycles"
+import { bicycles } from "../Massive/bicycles";
 import { cameras } from "../Massive/cameras";
+import { pens } from "../Massive/pens";
+import { sneakers } from "../Massive/sneakers";
+import s from "./Product.module.css";
 
 const products = {
   notebook: notebookList,
@@ -13,9 +16,9 @@ const products = {
   waterFilter: filters,
   bicycle: bicycles,
   camera: cameras,
+  sneaker: sneakers,
+  pen: pens,
 };
-
-const s = {};
 
 const Product = () => {
   const { id } = useParams();
@@ -24,7 +27,7 @@ const Product = () => {
   const pathname = location.pathname.split("/")[1];
 
   const product = products[pathname].find((e) => e.id == id);
-console.log(pathname);
+
   return (
     <div className={s.Sel}>
       <img className={s.image_main} src={product.image_main}></img>

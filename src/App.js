@@ -18,7 +18,11 @@ function App() {
             <Route path="/cameras" component={ProductList} />
             <Route path="/refrigerators" component={ProductList} />
             <Route path="/waterFilters" component={ProductList} />
+            <Route path="/pens" component={ProductList} />
+            <Route path="/sneakers" component={ProductList} />
 
+            <Route path="/sneaker/:id" component={Product} />
+            <Route path="/pen/:id" component={Product} />
             <Route path="/camera/:id" component={Product} />
             <Route path="/refrigerator/:id" component={Product} />
             <Route path="/notebook/:id" component={Product} />

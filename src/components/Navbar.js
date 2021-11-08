@@ -10,6 +10,8 @@ const Navbar = () => {
     { className: s.nav_link_Cameras, to: "/cameras", title: "Cameras" },
     { className: s.nav_link_Refrigerators, to: "/refrigerators", title: "Refrigerators" },
     { className: s.nav_link_WaterFilters, to: "/waterFilters", title: "WaterFilters" },
+    { className: s.nav_link_Pens, to: "/pens", title: "Pens" },
+    { className: s.nav_link_Sneakers, to: "/sneakers", title: "Sneakers" },
   ];
 
   return (
